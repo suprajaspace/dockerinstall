@@ -8,7 +8,7 @@ sudo docker ps
 curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.31.2/2024-11-15/bin/darwin/amd64/kubectl
 chmod +x ./kubectl
 sudo mv kubectl /usr/local/bin/kubectl
-kubectl version
+#kubectl version
 ARCH=amd64
 PLATFORM=$(uname -s)_$ARCH
 curl -sLO "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_$PLATFORM.tar.gz"
